@@ -27,13 +27,14 @@
         android:layout_height="139dp"
         android:background="@android:color/white"
         android:text="Button"
+        android:layout_marginBottom="10dp"
         android:textColor="@android:color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/answer3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.832"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701" />
+        app:layout_constraintVertical_bias="0.942" />
 
     <Button
         android:id="@+id/answer1"
@@ -41,13 +42,14 @@
         android:layout_height="139dp"
         android:background="@android:color/white"
         android:text="Button"
+        android:layout_marginBottom="10dp"
         android:textColor="@android:color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/answer4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701" />
+        app:layout_constraintVertical_bias="0.94" />
 
     <Button
         android:id="@+id/answer4"
@@ -72,21 +74,24 @@
         android:textColor="@android:color/white"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.021"
-        tools:layout_editor_absoluteX="2dp" />
+        app:layout_constraintVertical_bias="0.021" />
 
     <TextView
         android:id="@+id/question"
-        android:layout_width="409dp"
-        android:layout_height="401dp"
-        android:textColor="@android:color/white"
+        android:layout_width="407dp"
+        android:layout_height="308dp"
         android:gravity="center"
         android:text="TextView"
+        android:textColor="@android:color/white"
         android:textSize="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.142"
-        tools:layout_editor_absoluteX="2dp" />
+        app:layout_constraintVertical_bias="0.142" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
